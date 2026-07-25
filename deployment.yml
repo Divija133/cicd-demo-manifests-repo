@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: Divija133/cicd-e2e:33
+          image: Divija133/cicd-e2e:22
           ports:
             - containerPort: 8000
