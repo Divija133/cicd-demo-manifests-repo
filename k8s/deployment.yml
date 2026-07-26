@@ -8,14 +8,14 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nginx
+      app: todo-app
   template:
     metadata:
       labels:
-        app: nginx
+        app: todo-app
     spec:
       containers:
-        - name: nginx
+        - name: todo-app
           image: Divija133/cicd-e2e:27
           ports:
             - containerPort: 8000
