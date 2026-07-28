@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: todo-app
-          image: divija13/cicd-e2e:46
+          image: divija13/cicd-e2e:47
           ports:
             - containerPort: 8080
